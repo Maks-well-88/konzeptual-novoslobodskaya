@@ -1,0 +1,9 @@
+.logo_position_footer {
+  margin: 30px 0 20px 0;
+}
+
+@media screen and (max-width: 610px) {
+  .logo_position_footer {
+    display: none;
+  }
+}

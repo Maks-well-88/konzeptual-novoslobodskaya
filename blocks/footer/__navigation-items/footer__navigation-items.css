@@ -1,0 +1,9 @@
+@media screen and (max-width: 610px) {
+  .footer__navigation-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff;
+    order: 1;
+  }
+}

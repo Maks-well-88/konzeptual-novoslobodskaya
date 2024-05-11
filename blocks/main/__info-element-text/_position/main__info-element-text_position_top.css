@@ -1,0 +1,9 @@
+.main__info-element-text_position_top {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 610px) {
+  .main__info-element-text_position_top {
+    margin-bottom: 5px;
+  }
+}

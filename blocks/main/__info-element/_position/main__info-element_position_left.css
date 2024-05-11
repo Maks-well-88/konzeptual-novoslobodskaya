@@ -1,0 +1,9 @@
+.main__info-element_position_left {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 610px) {
+  .main__info-element_position_left {
+    margin-bottom: 10px;
+  }
+}

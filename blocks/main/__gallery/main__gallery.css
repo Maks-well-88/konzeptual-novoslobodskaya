@@ -1,0 +1,20 @@
+.main__gallery {
+  width: 100%;
+  margin: 55px auto;
+  display: flex;
+  justify-content: center;
+  background-color: #F1F4F9;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__gallery {
+    margin: 33px auto 70px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .main__gallery {
+    margin-top: 30px;
+    margin-bottom: 90px;
+  }
+}

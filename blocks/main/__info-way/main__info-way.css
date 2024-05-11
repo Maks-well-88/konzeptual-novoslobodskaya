@@ -1,0 +1,21 @@
+.main__info-way {
+  max-width: 555px;
+  min-height: 186px;
+  background-color: #F1F4F9;
+  border-radius: 15px;
+  margin: 15px 0 0 0;
+}
+
+@media screen and (max-width: 1155px) {
+  .main__info-way {
+    max-width: 100%;
+    min-height: 183px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .main__info-way {
+    margin-top: 30px;
+  }
+}

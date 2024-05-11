@@ -1,0 +1,12 @@
+.header {
+  background-color: rgba(1, 65, 135, 1);
+}
+
+@media screen and (max-width: 610px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}

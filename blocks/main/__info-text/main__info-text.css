@@ -1,0 +1,12 @@
+.main__info-text {
+  margin: 0;
+  padding: 22px 21px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 610px) {
+  .main__info-text {
+    padding: 15px 18px;
+    font-size: 13px;
+  }
+}

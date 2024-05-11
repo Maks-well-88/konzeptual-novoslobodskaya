@@ -1,0 +1,10 @@
+.main__grid-item {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__grid-item {
+    height: 100%;
+  }
+}

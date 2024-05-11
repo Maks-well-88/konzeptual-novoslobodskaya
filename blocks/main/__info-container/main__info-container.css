@@ -1,0 +1,19 @@
+.main__info-container {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1155px) {
+  .main__info-container {
+    margin: 30px auto 0;
+    max-width: 556px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .main__info-container {
+    margin-top: 28px;
+    flex-direction: column;
+  }
+}

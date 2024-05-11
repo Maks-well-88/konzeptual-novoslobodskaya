@@ -1,0 +1,11 @@
+.main__info-element-text {
+  margin: 0 0 0 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 610px) {
+  .main__info-element-text {
+    margin-left: 18px;
+  }
+}

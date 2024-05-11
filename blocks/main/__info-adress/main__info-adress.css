@@ -1,0 +1,21 @@
+.main__info-adress {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid #C6C6C6;
+}
+
+@media screen and (max-width: 1155px) {
+  .main__info-adress {
+    max-width: 556px;
+    margin: 25px auto 0;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .main__info-adress {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,10 @@
+.main__info-about {
+  width: 100%;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 610px) {
+  .main__info-about {
+    font-size: 13px;
+  }
+}

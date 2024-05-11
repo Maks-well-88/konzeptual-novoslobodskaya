@@ -1,0 +1,15 @@
+.footer__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ffffff;
+  padding: 18px 0;
+}
+
+@media screen and (max-width: 610px) {
+  .footer__navigation {
+    flex-direction: column;
+    border: none;
+    padding: 0;
+  }
+}

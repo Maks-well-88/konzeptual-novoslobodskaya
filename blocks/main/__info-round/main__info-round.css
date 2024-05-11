@@ -1,0 +1,16 @@
+.main__info-round {
+  min-width: 35px;
+  min-height: 35px;
+  background-color: #F1F4F9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px 0 0;
+}
+
+@media screen and (max-width: 610px) {
+  .main__info-round {
+    margin-right: 18px;
+  }
+}

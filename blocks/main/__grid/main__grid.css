@@ -1,0 +1,26 @@
+.main__grid {
+  max-width: 1140px;
+  margin: 57px 70px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, minmax(min-content, 1fr));
+  gap: 55px 30px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  .main__grid {
+    max-width: 1140px;
+    margin: 50px 70px;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(1, minmax(min-content, 1fr));
+    gap: 50px 0;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .main__grid {
+    grid-template: repeat(4, 1fr) / repeat(1, minmax(min-content, 1fr));
+    gap: 10px 0;
+    margin: 30px 14px;
+  }
+}

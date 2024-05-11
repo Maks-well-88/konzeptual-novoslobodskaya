@@ -1,0 +1,5 @@
+@media screen and (max-width: 610px) {
+  .main__title_screen_mobile {
+    display: block;
+  }
+}
