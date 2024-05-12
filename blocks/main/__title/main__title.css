@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 610px) {
   .main__title {
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: bold;
     margin: 125px 0 13px 14px;
   }
 }
