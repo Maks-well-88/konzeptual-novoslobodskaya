@@ -1,16 +1,4 @@
 .main__grid-item {
-  max-width: 100%;
-  border-radius: 15px;
-}
-
-@media screen and (max-width: 1000px) {
-  .main__grid-item {
-    height: 276px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .main__grid-item {
-    height: 172.547px;
-  }
+	max-width: 100%;
+	border-radius: 15px;
 }
